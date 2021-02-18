@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "mw-wiki-wednesday",
+  "type": "specialpage",
+  "author": [
+    "Ascor8522"
+  ],
+  "version": "0.1.0",
+  "url": "https://github.com/Ascor8522/mw-wiki-wednesday",
+  "description": "Adds ability to submit WW proposals, review those proposals and submit them once accepted.",
+  "license-name": "CC-BY-NC-SA-4.0",
+  "requires": {
+    "MediaWiki": ">= 1.35.0",
+    "extensions": {
+    },
+    "platform": {
+      "php": ">= 7.3.19"
+    }
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "resources"
+  },
+  "ResourceModules": {
+  },
+  "GroupPermissions": {
+  },
+  "AvailableRights": [
+  ],
+  "MessagesDirs": {
+    "mw-wiki-wednesday": [
+      "i18n"
+    ]
+  },
+  "SpecialPages": [
+  ],
+  "AutoloadClasses": {
+  },
+  "Hooks": {
+  },
+  "HookHandlers": {
+  },
+  "Actions": {
+  }
+}
